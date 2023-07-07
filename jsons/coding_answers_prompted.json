@@ -1,0 +1,172 @@
+[
+    {
+        "question": "What is the difference between a shallow copy and a deep copy in Python? Provide an example to illustrate the difference.",
+        "messages_id": "00001",
+        "messages_list_size": 10,
+        "messages_assistant_prompt": "",
+        "messages_complete": false,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n## SYSTEM INSTRUCTION:\nYou are an AI assistant. User will you give you a task. Your goal is to complete the task as faithfully as you can. While performing the task think step-by-step and justify your steps.\n\n## USER INSTRUCTION:\nHere is a coding question: 'What is the difference between a shallow copy and a deep copy in Python? Provide an example to illustrate the difference.'. How would you solve it? Describe the process in step by step reasoning."
+            },
+            {
+                "role": "assistant",
+                "content": ""
+            }
+        ]
+    },
+    {
+        "question": "Write a function in JavaScript that takes an array of integers as input and returns the second largest number in the array.",
+        "messages_id": "00002",
+        "messages_list_size": 10,
+        "messages_assistant_prompt": "",
+        "messages_complete": false,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n## SYSTEM INSTRUCTION:\nYou are an AI assistant. User will you give you a task. Your goal is to complete the task as faithfully as you can. While performing the task think step-by-step and justify your steps.\n\n## USER INSTRUCTION:\nHere is a coding question: 'Write a function in JavaScript that takes an array of integers as input and returns the second largest number in the array.'. How would you solve it? Describe the process in step by step reasoning."
+            },
+            {
+                "role": "assistant",
+                "content": ""
+            }
+        ]
+    },
+    {
+        "question": "Explain the concept of polymorphism in object-oriented programming and provide an example in Java.",
+        "messages_id": "00003",
+        "messages_list_size": 10,
+        "messages_assistant_prompt": "",
+        "messages_complete": false,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n## SYSTEM INSTRUCTION:\nYou are an AI assistant. User will you give you a task. Your goal is to complete the task as faithfully as you can. While performing the task think step-by-step and justify your steps.\n\n## USER INSTRUCTION:\nHere is a coding question: 'Explain the concept of polymorphism in object-oriented programming and provide an example in Java.'. How would you solve it? Describe the process in step by step reasoning."
+            },
+            {
+                "role": "assistant",
+                "content": ""
+            }
+        ]
+    },
+    {
+        "question": "In Python, what is the purpose of the `__init__` method in a class? How does it differ from the `__new__` method?",
+        "messages_id": "00004",
+        "messages_list_size": 10,
+        "messages_assistant_prompt": "",
+        "messages_complete": false,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n## SYSTEM INSTRUCTION:\nYou are an AI assistant. User will you give you a task. Your goal is to complete the task as faithfully as you can. While performing the task think step-by-step and justify your steps.\n\n## USER INSTRUCTION:\nHere is a coding question: 'In Python, what is the purpose of the `__init__` method in a class? How does it differ from the `__new__` method?'. How would you solve it? Describe the process in step by step reasoning."
+            },
+            {
+                "role": "assistant",
+                "content": ""
+            }
+        ]
+    },
+    {
+        "question": "Write a SQL query to find the average salary of employees in a company, grouped by department.",
+        "messages_id": "00005",
+        "messages_list_size": 10,
+        "messages_assistant_prompt": "",
+        "messages_complete": false,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n## SYSTEM INSTRUCTION:\nYou are an AI assistant. User will you give you a task. Your goal is to complete the task as faithfully as you can. While performing the task think step-by-step and justify your steps.\n\n## USER INSTRUCTION:\nHere is a coding question: 'Write a SQL query to find the average salary of employees in a company, grouped by department.'. How would you solve it? Describe the process in step by step reasoning."
+            },
+            {
+                "role": "assistant",
+                "content": ""
+            }
+        ]
+    },
+    {
+        "question": "Implement a function in C++ that checks if a given string is a palindrome (reads the same forwards and backwards).",
+        "messages_id": "00006",
+        "messages_list_size": 10,
+        "messages_assistant_prompt": "",
+        "messages_complete": false,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n## SYSTEM INSTRUCTION:\nYou are an AI assistant. User will you give you a task. Your goal is to complete the task as faithfully as you can. While performing the task think step-by-step and justify your steps.\n\n## USER INSTRUCTION:\nHere is a coding question: 'Implement a function in C++ that checks if a given string is a palindrome (reads the same forwards and backwards).'. How would you solve it? Describe the process in step by step reasoning."
+            },
+            {
+                "role": "assistant",
+                "content": ""
+            }
+        ]
+    },
+    {
+        "question": "Explain the difference between a stack and a queue data structure. Provide an example use case for each.",
+        "messages_id": "00007",
+        "messages_list_size": 10,
+        "messages_assistant_prompt": "",
+        "messages_complete": false,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n## SYSTEM INSTRUCTION:\nYou are an AI assistant. User will you give you a task. Your goal is to complete the task as faithfully as you can. While performing the task think step-by-step and justify your steps.\n\n## USER INSTRUCTION:\nHere is a coding question: 'Explain the difference between a stack and a queue data structure. Provide an example use case for each.'. How would you solve it? Describe the process in step by step reasoning."
+            },
+            {
+                "role": "assistant",
+                "content": ""
+            }
+        ]
+    },
+    {
+        "question": "Write a Python function that takes a string as input and returns the number of vowels in the string.",
+        "messages_id": "00008",
+        "messages_list_size": 10,
+        "messages_assistant_prompt": "",
+        "messages_complete": false,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n## SYSTEM INSTRUCTION:\nYou are an AI assistant. User will you give you a task. Your goal is to complete the task as faithfully as you can. While performing the task think step-by-step and justify your steps.\n\n## USER INSTRUCTION:\nHere is a coding question: 'Write a Python function that takes a string as input and returns the number of vowels in the string.'. How would you solve it? Describe the process in step by step reasoning."
+            },
+            {
+                "role": "assistant",
+                "content": ""
+            }
+        ]
+    },
+    {
+        "question": "In Java, what is the difference between an abstract class and an interface? When would you use each?",
+        "messages_id": "00009",
+        "messages_list_size": 10,
+        "messages_assistant_prompt": "",
+        "messages_complete": false,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n## SYSTEM INSTRUCTION:\nYou are an AI assistant. User will you give you a task. Your goal is to complete the task as faithfully as you can. While performing the task think step-by-step and justify your steps.\n\n## USER INSTRUCTION:\nHere is a coding question: 'In Java, what is the difference between an abstract class and an interface? When would you use each?'. How would you solve it? Describe the process in step by step reasoning."
+            },
+            {
+                "role": "assistant",
+                "content": ""
+            }
+        ]
+    },
+    {
+        "question": "Implement a binary search algorithm in any programming language of your choice.",
+        "messages_id": "00010",
+        "messages_list_size": 10,
+        "messages_assistant_prompt": "",
+        "messages_complete": false,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n## SYSTEM INSTRUCTION:\nYou are an AI assistant. User will you give you a task. Your goal is to complete the task as faithfully as you can. While performing the task think step-by-step and justify your steps.\n\n## USER INSTRUCTION:\nHere is a coding question: 'Implement a binary search algorithm in any programming language of your choice.'. How would you solve it? Describe the process in step by step reasoning."
+            },
+            {
+                "role": "assistant",
+                "content": ""
+            }
+        ]
+    }
+]

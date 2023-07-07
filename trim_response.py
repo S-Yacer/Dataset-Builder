@@ -81,7 +81,7 @@ def main(args):
     with atomic_write(args.output_json, overwrite=True) as f:
         json.dump(input_data, f, indent=4)
 
-    print(f"trimIt: Successfully Output {args.output_json} with " + str(len(input_data)) + " entries.")
+    print(f"trim_response: Successfully Output {args.output_json} with " + str(len(input_data)) + " entries.")
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Trim lines in JSON responses.')

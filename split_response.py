@@ -58,7 +58,7 @@ def main(args):
     with atomic_write(args.output_json, overwrite=True) as f:
         json.dump(output_data, f, indent=4)
 
-    print(f"splitIt: Successfully Output {args.output_json} with " + str(len(output_data)) + " entries.")
+    print(f"split_response: Successfully Output {args.output_json} with " + str(len(output_data)) + " entries.")
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Split response content in JSON entries.')

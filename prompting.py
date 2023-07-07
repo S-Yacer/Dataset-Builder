@@ -55,7 +55,7 @@ def main(args):
     with atomic_write(args.output_json, overwrite=True) as f:
         json.dump(output_data, f, indent=4)
 
-    print(f"promptIt: Successfully Output {args.output_json} with " + str(len(output_data)) + " entries.")
+    print(f"prompting: Successfully Output {args.output_json} with " + str(len(output_data)) + " entries.")
 
 
 if __name__ == '__main__':
@@ -68,12 +68,6 @@ if __name__ == '__main__':
     parser.add_argument("-next_prompt", help="Next generated prompt", type=str)
     parser.add_argument("-assistant_prompt", help="Beginning of assistant message", type=str)
     args = parser.parse_args()
-    #args = parser.parse_args([  
-        #"-input_json", "character_pair_moods_mixed",
-        #"-output_json", "character_pair_moods_prompted",
-        #"-first_prompt", "Hey! I have a great idea for a creative writing exercise and I need your help. I\'ve matched together pairs of characters from all kinds of literature in the public domain and I'd like you to think up an imaginative scenario prompt for how they might interact with eachother!\nSome of these character pairs might be pretty weird because they were mixed together at random but that's part of the fun! Don't be afraid to push the narative a little let's say PG-13 at max but the writing exercise is for adults not kids.\nCan I also request that the scenario is character centric? So like the location and conflict or objective should be built to facilitate an interesting dialogue of some sort that showcases the unique dynamic between them.\n\nOkay so the first scenario I need you to come up with is between **{character_name1}** from {book1} and **{character_name2}** from {book2}.\n{character_name1} is described as \"{character_description1}\" while {character_name2} is described as \"{character_description2}\".\nAnd the mood for this scenario prompt should be **{scenario_mood}**.\n\nI'm sure you'll do great and I can't wait to see what you come up with! Oh one last thing, your response is going to be added to a dataset where the above character descriptions will already be provided so please ONLY provide the scenario prompt you came up with. Thanks again!\nRemember all I need is a short scenario prompt doesn't need to be all that long just something to hopefully spark creativity. Describe a location, maybe a conflict or delima, just something to get an interesting interaction between the two.",
-        #"-assistant_prompt", '{character_name1}: *'
-    #])
 
     # hack to remove new line escapes the shell tries to put in on parameters
     for arg in vars(args):

@@ -1,0 +1,18 @@
+[
+    {
+        "messages_id": "00001",
+        "messages_list_size": 10,
+        "messages_assistant_prompt": "1. ",
+        "messages_complete": true,
+        "messages": [
+            {
+                "role": "user",
+                "content": "Please generate 10 unique and interesting coding questions that span a variety of topics."
+            },
+            {
+                "role": "assistant",
+                "content": "1. What is the difference between a shallow copy and a deep copy in Python? Provide an example to illustrate the difference.\n\n2. Write a function in JavaScript that takes an array of integers as input and returns the second largest number in the array.\n\n3. Explain the concept of polymorphism in object-oriented programming and provide an example in Java.\n\n4. In Python, what is the purpose of the `__init__` method in a class? How does it differ from the `__new__` method?\n\n5. Write a SQL query to find the average salary of employees in a company, grouped by department.\n\n6. Implement a function in C++ that checks if a given string is a palindrome (reads the same forwards and backwards).\n\n7. Explain the difference between a stack and a queue data structure. Provide an example use case for each.\n\n8. Write a Python function that takes a string as input and returns the number of vowels in the string.\n\n9. In Java, what is the difference between an abstract class and an interface? When would you use each?\n\n10. Implement a binary search algorithm in any programming language of your choice."
+            }
+        ]
+    }
+]
