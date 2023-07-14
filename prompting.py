@@ -11,7 +11,6 @@ def format_prompt(object, prompt_format, list_size=None, list_start=1):
     return formatted_prompt
 
 # Function to generate message data
-# Function to generate message data
 def main(args):
     # Initialize input data
     input_data = [{}]
