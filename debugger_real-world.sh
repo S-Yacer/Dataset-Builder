@@ -11,11 +11,12 @@ EOF
 )
 
 assistant_prompt=$(cat <<'EOF'
+**Error Nature and Language:**
 EOF
 )
 
 python3 prompting.py -output_json debugging_prompted -first_prompt "$first_prompt" -assistant_prompt "$assistant_prompt"
-python3 threaded_askgpt.py -input_json debugging_prompted.json -output_json debugging_asked.json -resume -temperature 0.7 -debugging_history -max_threads 3 -num_responses 6 -model gpt-4
+python3 threaded_askgpt.py -input_json debugging_prompted.json -output_json debugging_asked.json -resume -temperature 0.2 -debugging_history -max_threads 3 -num_responses 6 -model gpt-4
 python3 sort_response.py -input_json debugging_asked.json -output_json debugging_sorted.json 
 python3 trim_response.py -input_json debugging_sorted.json -output_json debugging_trimmed.json -trim_blanks
 python3 split_response.py -input_json debugging_trimmed.json -output_json debugging_split.json -new_key "debugging_prompt"

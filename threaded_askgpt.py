@@ -44,7 +44,7 @@ def process_single_entry(i, rep, entry, args, languages_errors_used):
 
             userPrompt = (messages[-1]['content'])
             if args.debugging_history:
-                userPrompt += f'Also, do not repeat a combination of languages and error types that has already been generated. The goal is to create a diverse dataset of different languages and error types. Lastly, it is important you do not repeat a combo of languages and error types that has already been generated, here are the following existing language and error type combinations that you must not generate within your example, but you are at will to generate a different combination pair: [{", ".join(languages_errors_used)}].'
+                userPrompt += f' Do not say the already existing language-error combinations. Also, do not repeat a combination of languages and error types that has already been generated. The goal is to create a diverse dataset of different languages and error types. Lastly, it is important you do not repeat a combo of languages and error types that has already been generated, here are the following existing language and error type combinations that you must not generate within your example, but you are at will to generate a different combination pair: [{", ".join(languages_errors_used)}].'
             #print("------------------------------------------------")
             #print("## USER PROMPT:\n" + userPrompt)
 
